@@ -1,0 +1,12 @@
+Predict the output
+
+#include <iostream>
+using namespace std;
+int  main{
+    if('a')
+    cout<<"Hello";
+    else
+    cout<<"World";
+return 0;
+}
+OUTPUT= ASCII value of 'a' is 97. The condition is true so Hello will be printed.

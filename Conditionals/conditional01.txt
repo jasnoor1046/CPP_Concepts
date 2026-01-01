@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int  main{
+int a=500,b,c;
+if(a<= 400)
+b=300;
+c=200;
+cout<<"value of b and c are  respectively"<<b<< "and" <<c;
+return 0;
+}
+OUTPUT: . The condition in 'if' is false, and there are no curly brackets after 
+if so the code written after it will be considered in same line. Due to wrong condition, garbage value
+will be stored in b and value of c will be printed as 200.

@@ -1,0 +1,14 @@
+predict the output
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ int x=5;
+ if(x>3)
+  cout<<"Hello";
+  cout<<"world";
+    return 0;
+}
+OUTPUT= As the condition is true so the line after if condition will be printed because there are no curly brackets
+after 'if' so line directly after it, is considered. so, 'world' is not printed.

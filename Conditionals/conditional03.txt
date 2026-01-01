@@ -1,0 +1,15 @@
+predict the output
+#include <iostream>
+using namespace std;
+int  main{
+int x=5;
+if(x>3);
+cout<<"Hello";
+
+else
+cout<<"World";
+return 0;
+}
+
+OUTPUT= No output will be printed because else is not under the closing bracket of 'if' 
+therefore the code will not work. 
